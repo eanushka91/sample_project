@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Platypi:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Danfo&family=Platypi:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light&display=swap');
+body{
+    background-image: url("/img/computer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Platypi", serif;
+    }
+p{
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    }
+#sampleID{
+    background-color: black;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 100px;
+    padding: 100px,200px,50px,20x;
+}
+#sample_id{
+    color: rgb(0, 17, 255);
+    text-align: center;
+}
+.sample_class{
+    color: rgb(0, 255, 34);
+    text-align: center;
+}
+.box01{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    position: static;
+
+}
+.box02{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 38, 255);
+    position: sticky;
+    top: 50px;
+    left: 100px;
+    z-index: -1;
+
+}
+.box03{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 0);
+    position: sticky;
+   
+}
